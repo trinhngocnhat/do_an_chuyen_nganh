@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-TOKEN ='MTI4Nzc3OTc2ODM0MjkzNzYwMA.GdUBaA.AsNrPF0cUGpwkVokRAbZneV_TE8zMfHjVjU-Zg'
+TOKEN =''
 
 intents = discord.Intents.default()
 intents.typing = False
