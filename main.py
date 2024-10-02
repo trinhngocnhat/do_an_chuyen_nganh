@@ -14,7 +14,7 @@ async  def on_ready ():
     print(f"{client.user} has connect to discord")
 
 @client.command()
-async  def hi(ctx):
+async  def hello_goodbye(ctx):
     await ctx.send("Hello there !")
 
 client.run(TOKEN) 
