@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 TOKEN =''
-
+#hello ae
 intents = discord.Intents.default()
 intents.typing = False
 intents.presences = False
@@ -17,4 +17,4 @@ async  def on_ready ():
 async  def hello_goodbye(ctx):
     await ctx.send("Hello there !")
 
-client.run(TOKEN) 
+client.run(TOKEN)
