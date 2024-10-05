@@ -15,6 +15,6 @@ async  def on_ready ():
 
 @client.command()
 async  def hello_goodbye(ctx):
-    await ctx.send("Hello there !")
+    await ctx.send("Hello there dcmn !")
 
 client.run(TOKEN)
