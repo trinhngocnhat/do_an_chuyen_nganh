@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-TOKEN =''
+import os
 #hello ae
 intents = discord.Intents.default()
 intents.typing = False
@@ -17,4 +17,4 @@ async  def on_ready ():
 async  def hello_goodbye(ctx):
     await ctx.send("Hello there dcmn !")
 
-client.run(TOKEN)
+client.run(os.getenv())
