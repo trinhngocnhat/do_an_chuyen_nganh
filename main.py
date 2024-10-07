@@ -17,4 +17,4 @@ async  def on_ready ():
 async  def hello_goodbye(ctx):
     await ctx.send("Hello there dcmn !")
 
-client.run(os.getenv())
+client.run(os.getenv('TOKEN'))
